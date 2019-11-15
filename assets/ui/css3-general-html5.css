@@ -1,0 +1,93 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+header, footer, aside, nav, article {
+	display: block;
+}
+
+body {
+	margin: 0 auto;
+	width: 940px;
+	font: 13px/22px Helvetica, Arial, sans-serif;
+	background: #f0f0f0;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 44px;
+	padding: 22px 0;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 22px;
+	padding: 11px 0;
+}
+
+p {
+	padding-bottom: 22px;
+}
+
+#intro {
+	margin-top: 0px;
+	padding: 44px;
+	background-size: 100%;
+	border-radius: 22px;
+}
+
+#intro {
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	-khtml-background-size: 100%;
+ 	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+}
+
+/*
+#intro {
+	background: #467612 url("intro_background.png") top left (287px 100%) repeat-x,
+			url("intro_flower.png") top right (653px 100%) no-repeat;
+}
+*/
+
+#content {
+	display: table;
+}
+
+#mainContent {
+	display: table-cell;
+	width: 620px;
+	padding-right: 22px;
+}
+
+aside {
+	display: table-cell;
+	width: 300px;
+}
+
+.blogPost {
+	column-count: 2;
+	column-gap: 22px;
+}
+
+.blogPost header {
+	column-span: all;
+}
+
+.blogPost div {
+	/* Column-count not implemented yet */
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+
+	/* Column-gap not implemented yet */
+	-moz-column-gap: 22px;
+	-webkit-column-gap: 22px;
+}
+
+.blogPost img {
+	margin: 22px 0;
+	box-shadow: 3px 3px 7px #777;
+}
+

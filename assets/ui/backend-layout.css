@@ -1,0 +1,217 @@
+body, html{ 
+	padding: 0; 
+	margin: 0;
+	min-width: 800px;
+}
+
+body{ 
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #606060;
+	color: #FFFFFF;
+}
+
+a:link, a:visited{ 
+	text-decoration: none; 
+	color: #00877C;	
+}
+
+a:link:hover, a:visited:hover{ color: #FFFFFF; }
+
+.toolbar{
+	width: 100%;
+	min-height: 32px;
+	background-color: #404040;
+	color: #FFFFFF;
+}
+
+.toolbar > div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.left-bar-icon{
+	background-color: #606060;
+	height: 32px;
+}
+
+.left-bar-icon > a{ padding: 0 5px; }
+
+.left-bar-icon > a > img{ margin-top: 8px; }
+
+.left-bar-icon:hover{ background-color: #808080; }
+
+#title-text-bar{
+	color: #FFFFFF;
+	font-weight: bold;
+        min-width: 180px;
+        width: 70%;
+        max-width: 72%;
+}
+
+.inset{ font-size: 80%; }
+
+#logon-info{ 
+	text-align: right; 
+	margin-left: 10px;	
+}
+
+.content > div{
+	display: inline;
+}
+
+.sidepanel{ 
+	min-height: 400px;
+	background-color: #606060;
+        float: left;
+}
+
+.sidepanel > ul{ margin-right: 15px; }
+
+.sidepanel > ul >li{ line-height: 1.5em; }
+
+.sidepanel a{ color: #C0C0C0; }
+
+.sidepanel a.current{ color: #FFFFFF; }
+
+.center-content{
+	max-width: 70%;
+	margin: 0 2%;
+}
+
+.center-content p{
+	line-height: 1.5em;
+}
+
+.center-box{
+	width: 30%;
+	margin: 16% auto;
+}
+
+.forms > fieldset{
+	width: 75%;
+	border: none;
+}
+
+.forms > fieldset > legend{
+	font-weight: bold;
+	font-family: "Arial", "Sans";
+	text-transform: uppercase;
+}
+
+.fieldcontainer{
+	clear: both;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.fieldcontainer  label{
+	clear: both;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.fieldcontainer input[type="text"],
+.fieldcontainer input[type="file"],
+.fieldcontainer input[type="password"],
+.fieldcontainer textarea,
+.fieldcontainer > select{
+	width: 95%;
+	margin-bottom: 10px;
+	padding: 0 0 1px 3px;
+}
+
+.fieldcontainer textarea{
+    height: 96px;
+}
+
+input.readonly{
+    background-color: #C0C0C0;
+}
+
+.fieldcontainer.center{
+	text-align: center;
+}
+
+.fieldcontainer > input[type="button"],
+.fieldcontainer > input[type="submit"],
+.fieldcontainer > input[type="reset"]{
+	max-width: 30%;
+}
+
+#user-info-bar{
+	font-style: italic;
+	margin: 0 2px;
+}
+
+.hidden{
+	display: none;
+}
+
+.box{
+    min-width: 30%;
+    max-width: 50%;
+    border: solid 2px #F0F0F0;
+    float: left;
+    margin: 10% 20%;
+    background-color: #404040;
+}
+
+.box > *{
+    margin: 5px auto;
+    text-align: center;
+}
+.rounded{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+
+span.filling-info{
+    font-size: 80%;
+    font-style: italic;
+    color: #C0C0C0;
+}
+
+img.img-photo{
+    max-width: 95%;
+    min-height: 150px;
+    max-height: 250px;
+    border: solid 1px #FFFFFF;
+    background-color: #707070;
+}
+
+.grids{
+    clear: both;
+    margin: 10px 5px;
+}
+
+.grids > table{
+    width: 95%;
+    border-collapse: collapse;
+    border: solid 0.2em #FFFFFF;
+}
+
+tr.theader{
+    font-weight: bold;
+    padding: 3px 2px;
+}
+
+tr.theader > td{
+    border: solid 1px #FFFFFF;
+    background-color: #808080;
+}
+
+.grids > table tr td{
+    padding: 2px;
+    border: solid 1px #FFFFFF;
+}
+
+.gray{
+    background-color: #808080;
+}
+
+.dark-gray{
+    background-color: #404040;
+}
